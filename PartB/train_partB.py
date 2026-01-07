@@ -158,8 +158,8 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Deep_LearingAssignment2_CS23M062 -command line arguments")
-    parser.add_argument("-wp","--wandb_project", type=str, default ='Shubhodeep_CS6190_LightningDeepLearing_Assignment2', help="Project name used to track experiments in Weights & Biases dashboard")
-    parser.add_argument("-we","--wandb_entity", type=str, default ='shubhodeepiitm062',help="Wandb Entity used to track experiments in the Weights & Biases dashboard.")
+    parser.add_argument("-wp","--wandb_project", type=str, default ='SoujitDutta2024PAI7325_LightningDeepLearing_Assignment2', help="Project name used to track experiments in Weights & Biases dashboard")
+    parser.add_argument("-we","--wandb_entity", type=str, default ='SoujitDutta2024PAI7325',help="Wandb Entity used to track experiments in the Weights & Biases dashboard.")
     parser.add_argument("-e","--epochs",type=int,default = 5,help ='Number of epochs to train convolutional neural network.')
     parser.add_argument("-b","--batch_size",type=int,default = 32,help='Batch size used to train neural network.')
     parser.add_argument('-lr','--learning_rate',type=float,default=0.001,help='Learning rate used to optimize model parameters')
